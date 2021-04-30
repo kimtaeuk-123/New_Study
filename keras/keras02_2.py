@@ -11,9 +11,9 @@ y_test = np.array([111,112,113,114,115,116,117,118,119,120])
 x_predict = np.array([111,112,113]) #예측할 때 쓸 것도 주자
 
 model = Sequential()
-model.add(Dense(50, input_dim = 1, activation='relu')) #linear 보다 relu가 더 성능이 좋다. 여기까지만 알아둬라
-model.add(Dense(30,activation='relu')) #linear 보다 relu가 더 성능이 좋다. 여기까지만 알아둬라
-model.add(Dense(25,activation='relu')) #linear 보다 relu가 더 성능이 좋다. 여기까지만 알아둬라
+model.add(Dense(50, input_dim = 1, activation='relu')) #linear 보다 relu가 더 성능이 좋다. 
+model.add(Dense(30,activation='relu')) 
+model.add(Dense(25,activation='relu')) 
 model.add(Dense(1))
 
 
